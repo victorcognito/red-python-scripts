@@ -23,20 +23,6 @@ port_max = 65535
 # Step 1: sudo apt install python3-pip
 # Step 2: pip install python-nmap
 
-
-# Basic user interface header
-print(r"""______            _     _  ______                 _           _ 
-|  _  \          (_)   | | | ___ \               | |         | |
-| | | |__ ___   ___  __| | | |_/ / ___  _ __ ___ | |__   __ _| |
-| | | / _` \ \ / / |/ _` | | ___ \/ _ \| '_ ` _ \| '_ \ / _` | |
-| |/ / (_| |\ V /| | (_| | | |_/ / (_) | | | | | | |_) | (_| | |
-|___/ \__,_| \_/ |_|\__,_| \____/ \___/|_| |_| |_|_.__/ \__,_|_|""")
-print("\n****************************************************************")
-print("\n* Copyright of David Bombal, 2021                              *")
-print("\n* https://www.davidbombal.com                                  *")
-print("\n* https://www.youtube.com/davidbombal                          *")
-print("\n****************************************************************")
-
 # Ask user to input the ip address they want to scan.
 while True:
     ip_add_entered = input("\nPlease enter the ip address that you want to scan: ")
